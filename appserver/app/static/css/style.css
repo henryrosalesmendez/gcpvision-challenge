@@ -1,0 +1,74 @@
+
+.bar-blue{
+    background-color: rgb(33,150,243)!important;
+    margin: 0;
+    padding: 0;
+    border: none;
+    min-height: 64px;
+    max-height: 1000px;
+    z-index: 3;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    
+}
+
+
+.bar-text{
+    display: block;
+    position: relative;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: .02em;
+    font-weight: 400;
+    box-sizing: border-box;
+    /*color: white!important;*/
+    color: rgb(255,255,255)!important;
+    margin-left: 20px;
+}
+
+
+
+.external-box{
+    border-radius: 2px;
+    padding: 20px 26px;
+    margin-bottom: 80px;
+    /*margin-top: 80px;*/
+    width: calc(66.6666666667% - 16px);
+    box-sizing: border-box;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+    background-color: #fff !important;
+    display: block;
+    padding: 8px;
+    text-align:center; 
+    resize: both;
+    overflow: auto;
+    /*
+    width:auto; 
+    height:auto; */
+    
+}
+
+
+.outbox{
+    margin-top: 80px;
+    padding: 20px;
+    text-align:center; 
+    
+    /*display: block;*/
+    /*
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    content: "";
+    background: url("icons/geogebra.ico") no-repeat 0 0;
+    background-size: 100%;
+*/
+}
+
+.responsive {
+   width: 100%;
+   height: auto;
+
+}
+
