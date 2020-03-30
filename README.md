@@ -68,3 +68,14 @@ A continuación una imagen visual de cómo se ve la interfaz. Para usar la aplic
 <img src="https://users.dcc.uchile.cl/~hrosales/img/main_view.png"  
 alt="Markdown Monster icon"  
 style="float: left; margin-right: 10px;" />
+
+
+## Pruebas Unitarias
+
+Para controlar la calidad de la API propuesta, a medida de que se fue construyendo la aplicación se fueron creando pruebas unitarias para chequiar varios casos positivos y negativos. Se diseñaron 3 casos positivos, cada uno de estos incluía la entrada de una imagen con objetos de uno de estos scenarios: dormitorio, bicicleta y perro-gato. Se incluyó un caso negativo donde no había objeto alguno ya que la imagen era solo un fondo blanco.
+
+Para ejecutar las pruebas unitarias diríjase a la ruta: `appserver/` y luego ejecute el siguiente comando:
+
+```sh
+python3 unittests.py
+```
